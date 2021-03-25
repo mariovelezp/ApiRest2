@@ -1,2 +1,2 @@
 # ApiRest2
-Taller2: Aplicacion de servidor con Node.js, Express, JWT, MogoDB.
+Taller2: Aplicacion de servidor Basica con Node.js, Express, MogoDB.
