@@ -1,0 +1,26 @@
+GET http://localhost:3005/subscribers
+
+
+##########################################
+GET http://localhost:3005/subscribers/605ca8f3acaf652a64c51fc9
+
+##########################################
+POST http://localhost:3005/subscribers
+Content-Type: application/json
+
+{
+  "name": "Mario",
+  "subscribedChannel": "Bennetts Channel2"
+}
+
+##########################################
+DELETE http://localhost:3005/subscribers/605cad60618f2003d85c3134
+
+##########################################
+PATCH http://localhost:3005/subscribers/605ca9a5acaf652a64c51fca
+Content-Type: application/json 
+
+{
+  "name": "Tommy"
+}
+
